@@ -1,0 +1,20 @@
+git checkout -b "marc0pz"    /// para crear branch
+
+git add .                    /// para añadir todo (.) de una branch prefijada
+git commit -m "Subo xxx"     /// para añadir comentarios 
+git push                     /// para "empujar" archivos añadidos a branch main
+
+git clone url_a_clonar       ///para "clonar" repo main
+
+git pull                     ///para "sacar" archivos subidos de otras branches a la personal
+
+git checkout main            ///volver a main
+
+
+git checkout -b "nombrerama" /// -b crea rama
+
+
+
+git merge main               ///de la main a la rama
+
+git merge "nombrerama"       ///de rama a la main DESDE MAIN
