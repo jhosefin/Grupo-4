@@ -29,20 +29,22 @@ public class FuncionesRetorno {
         Float resultado = 0f;
 
         //Con bucle while**********************
-        while(num1 == 0 || num2 == 0){
+        /*while(num1 == 0 || num2 == 0){
             System.out.println("No se puede dividir por 0");
             break;
         }
         resultado = (float) num1 / num2  ;
-        return  resultado;
+        return  resultado;*/
+        
 
         //Con condicional If********************
-        /*if (num1 == 0 || num2 == 0){ 
+        if (num1 == 0 || num2 == 0){ 
             System.out.println("No se puede dividir por 0");
         }else{ 
-        resultado = (float) num1 / num2  ;*/
+        resultado = (float) num1 / num2;
         }
-
+        return  resultado;
+    }
     
 
     public static void main(String[] args) {
